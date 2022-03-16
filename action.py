@@ -1,0 +1,1 @@
+#odbiór danych

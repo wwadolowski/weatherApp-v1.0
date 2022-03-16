@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startLoad()">
+    <div id = "login-bar">
+        <h1 class="title-app">weatherApp</h1>
+        <form id="action-bar" action="/action.py" method = "post">
+            <label for="login">Login: </label>
+            <input id="login-input" type="text" id="login" name="login">
+            <label for="haslo">Hasło: </label>
+            <input id="haslo-input" type="text" id="haslo" name="haslo">
+            <input id="login-btn" type="submit" value="Zaloguj się">
+          </form>
+          <div class="register-bar">
+          <p id="register-question">Nie masz konta?</p>
+          <a id="register-link" href="register.html">Zarejestruj się</a>
+          </div>
+    </div>
+    <div id="city-favorite-div">
+    <h2 id="actual-city"></h2>
+    <span><button id="favorite-btn" onclick="setFavoriteCity()"></button></span>
+    </div>
+    <div id="search-bar">
+        <input type="text" id="city-input" name="city">
+        <button id="input-btn" onclick="getLocationByInput()">Enter</button>
+        <button id="location-btn" onclick="getLocation()">Pobierz lokalizacje</button>
+    </div>
+    <div id="weather-bar">
+        <p id="weather-none"></p>
+        <p id="weather-day"></p>
+        <div id="weather-temp">
+
+        </div>
+        <div id="weather-icon">
+
+        </div>
+        <div id="weather-other">
+            <p id="weather-description"></p>
+            <p id="weather-pressure">Ciśnienie: </p>
+            <p id="weather-wind">Wiatr: </p>
+            <p id="weather-humidity">Wilgotność: </p>
+            <button id="previous-btn" onclick="previousWeatherBtn()">&#60</button>
+            <button id="next-btn" onclick="nextWeatherBtn()">&#62</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

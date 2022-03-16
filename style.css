@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#login-bar 
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+}
+.title-app
+{
+    position: relative;
+    top: 1%;
+    margin: 0;
+    font-size: 2vw;
+}
+#action-bar
+{
+    margin-top: 0%;
+    margin-left: 45%;
+    width: 50%;
+    font-size: 1.5vw;
+}
+.register-bar
+{
+    position: absolute;
+    display: flex;
+    top: 4%;
+    left: 86%;
+    font-size: 1vw;
+}
+#register-link
+{
+    position: relative;
+    top: 1em;
+    margin-left: 1em;
+    font-size: 1vw;
+}
+/*
+#login-bar
+{
+    display: flex;
+    background-color: aqua;
+    height: 3.8em;
+}
+
+.title-app
+{
+    position: relative;
+    top: 0.3em;
+    margin: 0;
+}
+
+#action-bar
+{
+    margin-top: 0.8em;
+    margin-left: 50em;
+}
+
+.register-bar
+{
+    position: absolute;
+    display: flex;
+    top: 1.2em;
+    left: 80em;
+}
+
+#register-link
+{
+    position: relative;
+    top: 1em;
+    margin-left: 1em;
+}
+*/
+#search-bar
+{
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+}
+#weather-bar
+{
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+}
+#city-favorite-div
+{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+    size:100%;
+}
+/* ----------------------------------------------------------Przyciski------------------------------------------------*/
+#previous-btn
+{
+    position:absolute;
+    height: 68%;
+    width: 3%;
+    top: 30%;
+    left: 28%;
+    background-color:rgba(45, 141, 185, 0)
+    /* max and min height*/
+}
+#next-btn
+{
+    position:absolute;
+    height: 68%;
+    width: 3%;
+    top: 30%;
+    left: 70%;
+    background-color:rgba(45, 141, 185, 0)
+    /* max and min height ///  lub pozycja relatywna i to naprawic jakos*/
+}
+#input-btn
+{
+    width: 8%;
+    height: 8%;
+    font-size: 1vw;
+    background-color:rgba(45, 141, 185, 0)
+}
+#location-btn
+{
+    width: 8%;
+    height: 8%;
+    font-size: 1vw;
+    background-color:rgba(45, 141, 185, 0)
+}
+#login-btn
+{
+    font-size: 1vw;
+    width: 15%;
+    height: 80%;
+    background-color:rgba(45, 141, 185, 0)
+}
+#favorite-btn
+{
+    box-sizing: border-box;
+    position:relative;
+    width: 80%;
+    height: 25%;
+    top:20%;
+    left:20%;
+    background-image: url(favorite-icon-1.png);
+    background-size: cover;
+    padding:380%;
+}
+#city-input
+{
+    width: 15%;
+    height: 5%;
+    font-size: 1vw;
+}
+#login-input
+{
+    width: 30%;
+    height: 50%;
+    font-size: 1vw;
+}
+#haslo-input
+{
+    width: 30%;
+    height: 50%;
+    font-size: 1vw;
+}
+#weather-none
+{
+    color:red;
+    font-size:1vw;
+}
+/* -------------------------------------------------------Register.html----------------------------------------------------*/
+.register-div
+{
+    text-align: center;
+}
+
+#action-bar2
+{
+    text-align: center;
+}
+.e-mail
+{
+    position: relative;
+    left: -1.5%;
+}
